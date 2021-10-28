@@ -4,7 +4,7 @@ import "./footer.css";
 const footer = () => {
   return (
     <div>
-      <div>
+      <div className="footer_decor">
         <footer>
           <div class="footer-wrap">
             <div class="container first_class">
@@ -65,9 +65,9 @@ const footer = () => {
                     </div>
                   </div>
                   <div class="clearfix"></div>
-                  <div class="col-md-12">
+                  {/* <div class="col-md-12">
                     <h3 className="social_text">Stay Connected</h3>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
