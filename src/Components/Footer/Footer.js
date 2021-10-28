@@ -11,6 +11,8 @@ const footer = () => {
               <div class="row">
                 <div class="col-md-4 col-sm-6">
                   <h3>BE THE FIRST TO KNOW</h3>
+                  <br />
+
                   <p>
                     Get all the latest information on Triedge Services, Events,
                     Jobs and Fairs. Sign up for our newsletter today.
@@ -64,10 +66,6 @@ const footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="clearfix"></div>
-                  {/* <div class="col-md-12">
-                    <h3 className="social_text">Stay Connected</h3>
-                  </div> */}
                 </div>
               </div>
             </div>

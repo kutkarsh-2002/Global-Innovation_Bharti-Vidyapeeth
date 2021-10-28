@@ -2,7 +2,7 @@ import React from "react";
 import "./success.css";
 const Success = () => {
   return (
-    <div>
+    <div className="success_stories">
       <div>
         {/* Testimonials Section */}
         <section id="testimonial">
@@ -40,10 +40,7 @@ const Success = () => {
                     <div class="carousel-item active">
                       <div class="carousel-content">
                         <div class="client-img">
-                          <img
-                            src="images/user-img-1.jpg"
-                            alt="Testimonial Slider"
-                          />
+                          <img src="images/user-img-1.jpg" />
                         </div>
                         <p>
                           <i>
@@ -63,10 +60,7 @@ const Success = () => {
                     <div class="carousel-item">
                       <div class="carousel-content">
                         <div class="client-img">
-                          <img
-                            src="images/user-img-2.jpg"
-                            alt="Testimonial Slider"
-                          />
+                          <img src="images/user-img-2.jpg" />
                         </div>
                         <p>
                           <i>
@@ -87,10 +81,7 @@ const Success = () => {
                     <div class="carousel-item">
                       <div class="carousel-content">
                         <div class="client-img">
-                          <img
-                            src="images/user-img-3.jpg"
-                            alt="Testimonial Slider"
-                          />
+                          <img src="images/user-img-3.jpg" />
                         </div>
                         <p>
                           <i>
