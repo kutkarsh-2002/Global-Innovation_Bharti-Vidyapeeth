@@ -62,7 +62,18 @@
                                     footer
   =========================================================================================
   */
-
+.footer-logo {
+  margin-left: 120px;
+}
+@media (max-width: 750px) {
+  .footer-logo {
+    margin-left: 100px;
+  }
+}
+.footer-logo img {
+  height: 110px;
+  width: 110px;
+}
 .footer-wrap {
   padding-top: 43px;
   background-size: cover;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import footerlogo from "../image/Wabrone-logo.png";
 
 const footer = () => {
   return (
@@ -74,10 +75,7 @@ const footer = () => {
                 <div class="row">
                   <div class="col-md-4 col-sm-6">
                     <div class="footer-logo">
-                      <img
-                        src="http://localhost/lrn/img/footer_logo.png"
-                        alt="logo"
-                      />
+                      <img src={footerlogo} alt="logo" />
                     </div>
                     <p>
                       Your one-stop career platform to find Jobs, Internships,
