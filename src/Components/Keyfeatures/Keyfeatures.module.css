@@ -1,0 +1,32 @@
+.Box {
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.b2cont{
+    background:linear-gradient(to top, #101111, #020d4b);
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    width: 75%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ftrs{
+    margin-top: 80px;
+    padding-left: 15px;
+}
+@media (max-width:800px){
+    .Box{
+        flex-direction: column;
+    }
+    .b2cont{
+        width: 93%;
+    }
+}
