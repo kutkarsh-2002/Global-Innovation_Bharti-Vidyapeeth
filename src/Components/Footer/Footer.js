@@ -5,7 +5,7 @@ import footerlogo from "../image/Wabrone-logo.png";
 const footer = () => {
   return (
     <div>
-      <div className="footer_decor">
+      <div className="footer_decor" id="footer-reach">
         <footer>
           <div class="footer-wrap">
             <div class="container first_class">
@@ -15,8 +15,9 @@ const footer = () => {
                   <br />
 
                   <p>
-                    Get all the latest information on Triedge Services, Events,
-                    Jobs and Fairs. Sign up for our newsletter today.
+                    Get all the latest information on Wabrone Services, Events,
+                    Webinars and upcoming features. Sign up for our newsletter
+                    today.
                   </p>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -78,9 +79,12 @@ const footer = () => {
                       <img src={footerlogo} alt="logo" />
                     </div>
                     <p>
-                      Your one-stop career platform to find Jobs, Internships,
-                      Professional Trainings, Projects, and Volunteering
-                      Opportunities.
+                      Your one-stop startup platform to find all the solutions
+                      for your problems. Our community assists entrepreneurs in
+                      developing their business and solving problems associated
+                      with it, especially in the initial stages, by providing an
+                      array of business and technical services, initial seed
+                      funds, lab facilities, advisory, network and linkages.
                     </p>
                   </div>
                   <div class="col-md-2 col-sm-6">
@@ -93,7 +97,7 @@ const footer = () => {
                         <a href="#">About us</a>
                       </li>
                       <li>
-                        <a href="#">Triedge Partners</a>
+                        <a href="#">Wabrone Partners</a>
                       </li>
                       <li>
                         <a href="#">Contact Us</a>
@@ -117,32 +121,32 @@ const footer = () => {
                     <h3>OUR SERVICES</h3>
                     <ul class="footer-category">
                       <li>
-                        <a href="#">Fresher Jobs</a>
+                        <a href="#">Incubation Centre</a>
                       </li>
                       <li>
-                        <a href="#">InternEdge - Internships &amp; Projects </a>
+                        <a href="#">Connect to Mentors </a>
                       </li>
                       <li>
-                        <a href="#">Resume Edge - Resume Writing Services</a>
+                        <a href="#">Raise Funds</a>
                       </li>
                       <li>
-                        <a href="#">Readers Galleria - Curated Library</a>
+                        <a href="#">Acquire Startups</a>
                       </li>
                       <li>
-                        <a href="#">Trideus - Campus Ambassadors</a>
+                        <a href="#">Wabrone Campus Ambassadors</a>
                       </li>
                     </ul>
                     <div class="clearfix"></div>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                    <h3>triedge Events</h3>
+                    <h3>Wabrone Events</h3>
                     <ul class="footer-links">
                       <li>
-                        <a href="#">Triedge Events</a>
+                        <a href="#">Webinars</a>
                       </li>
 
                       <li>
-                        <a href="#">Jobs &AMP; Internship Fair 2019</a>
+                        <a href="#">History</a>
                       </li>
                     </ul>
                   </div>
@@ -154,8 +158,7 @@ const footer = () => {
               <div class="container-fluid">
                 <div class="copyright">
                   {" "}
-                  Copyright 2019 | All Rights Reserved by TRIEDGE Solutions Pvt.
-                  Ltd.
+                  Copyright 2021 | All Rights Reserved by Wabrone Pvt. Ltd.
                 </div>
               </div>
             </div>

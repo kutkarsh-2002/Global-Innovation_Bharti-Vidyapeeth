@@ -1,10 +1,10 @@
 import React from "react";
 import "./customer-rating.css";
-const customer = () => {
+const Customer = () => {
   return (
     <div>
-      <div className="customer-decor">
-        <div class="container">
+      <div className="customer_decor">
+        <div class="container-customer">
           <div
             class="accordion d-flex justify-content-center align-items-center height"
             id="accordionExample"
@@ -15,7 +15,7 @@ const customer = () => {
                   <ul class="testimonial-list">
                     <li>
                       <div
-                        class="card p-3"
+                        class="card-customer p-3"
                         data-toggle="collapse"
                         data-target="#collapseOne"
                         aria-expanded="true"
@@ -28,9 +28,9 @@ const customer = () => {
                             width="50"
                             class="rounded-circle"
                           />
-                          <div class="d-flex flex-column ml-2">
+                          <div class="d-flex flex-column ml-2 customer-name">
                             {" "}
-                            <span class="font-weight-normal">
+                            <span class="font-weight-normal customer-name">
                               Milton Austin
                             </span>{" "}
                             <span>Sales Manager, Stack</span>{" "}
@@ -40,7 +40,7 @@ const customer = () => {
                     </li>
                     <li>
                       <div
-                        class="card p-3"
+                        class="card-customer p-3"
                         data-toggle="collapse"
                         data-target="#collapseTwo"
                         aria-expanded="false"
@@ -55,17 +55,19 @@ const customer = () => {
                           />
                           <div class="d-flex flex-column ml-2">
                             {" "}
-                            <span class="font-weight-normal">
+                            <span class="font-weight-normal customer-name">
                               John Reeves
                             </span>{" "}
-                            <span>Head of Sales, Asana</span>{" "}
+                            <span className="customer-name">
+                              Head of Sales, Asana
+                            </span>{" "}
                           </div>
                         </div>
                       </div>
                     </li>
                     <li>
                       <div
-                        class="card p-3"
+                        class="card-customer p-3"
                         data-toggle="collapse"
                         data-target="#collapseThree"
                         aria-expanded="false"
@@ -80,10 +82,12 @@ const customer = () => {
                           />
                           <div class="d-flex flex-column ml-2">
                             {" "}
-                            <span class="font-weight-normal">
+                            <span class="font-weight-normal customer-name">
                               Luke Harper
                             </span>{" "}
-                            <span>Sales Team Lead,Sketch</span>{" "}
+                            <span className="customer-name">
+                              Sales Team Lead,Sketch
+                            </span>{" "}
                           </div>
                         </div>
                       </div>
@@ -100,7 +104,7 @@ const customer = () => {
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
-                      <h4>It was a great experience</h4>
+                      <h4>Thanks for this great service, Team Wabrone!</h4>
                       <div class="ratings">
                         {" "}
                         <i class="fa fa-star"></i> <i class="fa fa-star"></i>{" "}
@@ -108,18 +112,17 @@ const customer = () => {
                       </div>
                       <br />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam.
+                        The incubator helps entrepreneurs to convert their ideas
+                        in becoming successful and profitable ventures by
+                        supporting them in business planning, mentoring,
+                        recruiting their top team, commercializing their
+                        technologies, developing their products, getting early
+                        seed funding, help in forging partnerships at the
+                        national and global level, advice on intellectual
+                        property, training and development and many other
+                        things. Wabrone is reputed for its huge network of
+                        successful entrepreneurs, domain experts, academicians
+                        and experienced professionals
                       </p>
                     </div>
                   </div>
@@ -130,27 +133,24 @@ const customer = () => {
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
-                      <h4>Thanks for this great service</h4>
+                      <h4>This is an excellent platform!</h4>
                       <div class="ratings">
                         {" "}
                         <i class="fa fa-star"></i> <i class="fa fa-star"></i>{" "}
                         <i class="fa fa-star"></i> <i class="fa fa-star"></i>{" "}
                         <i class="fa fa-star"></i>{" "}
                       </div>
+
                       <br />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam.
+                        Wabrone provides seed stage investment to technology
+                        startups. It target startups that are based out of
+                        India, or have India as a target market and its
+                        incubation period is for a year. It conducts various
+                        seminars, reach-out programs, networking events and more
+                        for both students and aspiring entrepreneurs. The
+                        grooming and incubation program is conducted in a batch
+                        of 25 with duration of 13 weeks
                       </p>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ const customer = () => {
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
-                      <h4>You all are awesome thanks alot</h4>
+                      <h4>Utilize this platform to the most!</h4>
                       <div class="ratings">
                         {" "}
                         <i class="fa fa-star"></i> <i class="fa fa-star"></i>{" "}
@@ -169,18 +169,13 @@ const customer = () => {
                       </div>
                       <br />
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam.
+                        It helps the young firms to survive and grow by
+                        providing specialised support services during the
+                        critical period of a business venture i.e. the start-up
+                        phase. The goal is to nurture successful indigenous
+                        technologies and growth oriented
+                        entrepreneurs/enterprises. It provides space as well as
+                        seed fund to the startups.
                       </p>
                     </div>
                   </div>
@@ -193,4 +188,5 @@ const customer = () => {
     </div>
   );
 };
-export default customer;
+
+export default Customer;

@@ -1,54 +1,48 @@
-.HeadNav{
-    background-color: rgb(66, 68, 66);
-    color: white;
+.HeadNav {
+  background-color: rgb(66, 68, 66);
+  color: white;
 }
-.Nav{
-    
-    
-    background:linear-gradient(to right, #06101c, #06101c);
-    
-    border-bottom: 4px solid #28a745;
+.Nav {
+  background: linear-gradient(to right, #06101c, #06101c);
+
+  border-bottom: 4px solid #28a745;
 }
-.Header{
-    color:white;
-    text-transform: uppercase;
-    font-size: larger;
-    text-transform: none;
-    text-decoration: none;
-    font-size: x-large;
-    font-weight: 500;
-}
-@media (max-width:700px){
-    .Header{
-        font-size: large;
-    }
-}
-nav a:hover{
-    text-decoration: none;
-    text-transform: none;
-    color: #28a745;
-}
-ul li{
-    
-    color: white;
-    text-transform: uppercase;
-    font-size: medium;
-    margin: 5px;
-    padding: 5px 20px;
-    text-decoration: none;
-    
-}
-ul li a{
-    color: #28a745;
-}
-ul li:hover{
-    
-    box-shadow: 0 -2px 0px #28a745;
-    cursor: pointer;
+.Header {
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  text-transform: none;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 500;
 }
 
+@media (max-width: 700px) {
+  .Header {
+    font-size: large;
+  }
+}
+nav a:hover {
+  text-decoration: none;
+  text-transform: none;
+  color: #28a745;
+}
+ul li {
+  color: white;
+  text-transform: uppercase;
+  font-size: medium;
+  margin: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+ul li a {
+  color: #28a745;
+}
+ul li:hover {
+  box-shadow: 0 -2px 0px #28a745;
+  cursor: pointer;
+}
 
-.Navbutton{
-    color:#28a745;
-    
+.Navbutton {
+  color: #28a745;
 }
