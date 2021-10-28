@@ -1,0 +1,27 @@
+.card{
+    color: white;
+    background:linear-gradient(to top, #101111, #020d4b);
+    border-radius: 10px;
+    border: none;
+    height: 400px;
+}
+.cm{
+    height: 200px;
+}
+.rdm{
+    text-decoration: none;
+    color: #28a745;
+}
+.rdm:hover{
+    color: #28a745;
+}
+
+@media (max-width:800px){
+    .card{
+        height: 370px;
+        
+    }
+    .cm{
+        height:200px;
+    }
+}
