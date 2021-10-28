@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
     <div>
-      React-App;
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
